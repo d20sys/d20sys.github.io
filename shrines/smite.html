@@ -1,0 +1,326 @@
+<html>
+    <head>
+        <title>SMITE!</title>
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+
+    </head>
+    <body>
+
+        <script>NekoType="white"</script>
+<h1 id=nl><script src="https://webneko.net/n20171213.js"></script><a 
+href="https://webneko.net">Neko</a></h1>
+
+        <div id="container"><div id="header"></div>
+            <div id="headerArea">
+                
+                
+            <nav id="navbar" style="margin-bottom: 10px;"><ul>
+                <li><a href="https://www.huldra.xyz/")>home</a></li>
+                <li><a href="/about">about</a></li>
+                <li><a href="/reviews">reviews</a></li>
+                <li><a href="/404">tbd</a></li>
+                <li><a href="/404">tbd</a></li>
+                <li><a href="/404">tbd</a></li>
+              </ul></nav></div>
+
+            <div id="flex">
+                
+                <main>
+                   <h1>SMITE!</h1>
+                    <p><strong>the best moba of all time</strong></p>
+                    <p>apologies for the dust, but currently this section of the website is under construction! you can expect some totally banging reviews soon but, for now, you'll just have to bare with me!</p>
+                    
+                </main>
+                
+            </div>
+            
+        <footer id="footer" style="margin-top: 10px;">
+            <!-- Start of CuterCounter Code -->
+            <a href="https://www.cutercounter.com/" target="_blank"><img src="https://www.cutercounter.com/hits.php?id=hxppcpk&nd=5&style=56" border="0" alt="visitor counter"></a>
+            <!-- End of CuterCounter Code -->
+            </footer></div>
+       
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <!-- THIS IS THE CSS !-->
+        <style>
+            /* user styles */
+
+            /* styles are what change the color and sizes of stuff on your site. */
+
+            /* these are variables that are being used in the code
+    these tended to confuse some people, so I only kept 
+    the images as variables */
+
+            :root {
+                --header-image: url('https://raw.githubusercontent.com/d20sys/d20sys.github.io/main/docs/assets/images/huldraBlue22.PNG');
+                --body-bg-image: url('https://raw.githubusercontent.com/d20sys/d20sys.github.io/main/docs/assets/images/fish.png');
+                
+                /* colors */
+                --content: #12092d;
+            }
+
+            /* if you have the URL of a font, you can set it below */
+            /* feel free to delete this if it's not your vibe */
+
+            /* this seems like a lot for just one font and I would have to agree 
+    but I wanted to include an example of how to include a custom font.
+    If you download a font file you can upload it onto your Neocities
+    and then link it! Many fonts have separate files for each style
+    (bold, italic, etc. T_T) which is why there are so many!
+    
+    */
+
+            @font-face {
+                font-family: Rubik;
+                src: url('https://github.com/d20sys/d20sys.github.io/blob/main/docs/assets/fonts/Rubik-Regular.ttf');
+            }
+
+            @font-face {
+                font-family: Rubik;
+                src: url('https://github.com/d20sys/d20sys.github.io/blob/main/docs/assets/fonts/Rubik-Bold.ttf');
+                font-weight: bold;
+            }
+
+            @font-face {
+                font-family: Rubik;
+                src: url('https://github.com/d20sys/d20sys.github.io/blob/main/docs/assets/fonts/Rubik-Italic.ttf');
+                font-style: italic;
+            }
+
+            @font-face {
+                font-family: Rubik;
+                src: url('https://github.com/d20sys/d20sys.github.io/blob/main/docs/assets/fonts/Rubik-BoldItalic.ttf');
+                font-style: italic;
+                font-weight: bold;
+            }
+
+            body {
+                font-family: 'Rubik', sans-serif;
+                letter-spacing: 0.5px;
+                line-height: 1.3;
+                margin: 0;
+                background-color: #12092d;
+                /* you can delete the line below if you'd prefer to not use an image */
+                background-size: 384px;
+                color: #eaeaff;
+                background-image: var(--body-bg-image);
+            }
+
+            * {
+                box-sizing: border-box;
+            }
+
+            /* below this line is CSS for the layout */
+
+            /* this is a CSS comment
+    to uncomment a line of CSS, remove the * and the /
+    before and after the text */
+
+
+            /* the "container" is what wraps your entire website */
+            /* if you want something (like the header) to be Wider than
+    the other elements, you will need to move that div outside
+    of the container */
+            #container {
+                max-width: 900px;
+                /* this is the width of your layout! */
+                /* if you change the above value, scroll to the bottom
+      and change the media query according to the comment! */
+                margin: 0 auto;
+                /* this centers the entire page */
+            }
+
+            /* the area below is for all links on your page
+    EXCEPT for the navigation */
+            #container a {
+                color: #64f5a3;
+                font-weight: bold;
+                /* if you want to remove the underline
+      you can add a line below here that says:
+      text-decoration:none; */
+            }
+
+            #header {
+                width: 100%;
+                height: 150px;
+                /* this is only for a background image! */
+                /* if you want to put images IN the header, 
+      you can add them directly to the <div id="header"></div> element! */
+                background-image: url("https://raw.githubusercontent.com/d20sys/d20sys.github.io/main/docs/assets/images/huldraBlue22.PNG");
+                background-size: 100%;
+                background-color: #12092d;
+                /* header color here! */
+
+            }
+
+            /* navigation section!! */
+            #navbar {
+                height: 40px;
+                background-color: #12092d;
+                /* navbar color */
+                width: 100%;
+            }
+
+            #navbar ul {
+                display: flex;
+                padding: 0;
+                margin: 0;
+                list-style-type: none;
+                justify-content: space-evenly;
+            }
+
+            #navbar li {
+                padding-top: 10px;
+            }
+
+            /* navigation links*/
+            #navbar li a {
+                color: #6480f5;
+                /* navbar text color */
+                font-weight: 800;
+                text-decoration: none;
+                /* this removes the underline */
+            }
+
+            /* navigation link when a link is hovered over */
+            #navbar li a:hover {
+                color: #a49cba;
+                text-decoration: underline;
+            }
+
+            #flex {
+                display: flex;
+            }
+
+            /* this colors BOTH sidebars
+    if you want to style them separately,
+    create styles for #leftSidebar and #rightSidebar */
+            aside {
+                background-color: #143845;
+                width: 200px;
+                padding: 20px;
+                font-size: smaller;
+                /* this makes the sidebar text slightly smaller */
+            }
+
+
+            /* this is the color of the main content area,
+    between the sidebars! */
+            main {
+                background-color: #31446c;
+                flex: 1;
+                padding: 20px;
+                order: 2;
+            }
+
+            /* what's this "order" stuff about??
+    allow me to explain!
+    if you're using both sidebars, the "order" value
+    tells the CSS the order in which to display them.
+    left sidebar is 1, content is 2, and right sidebar is 3! */
+
+            */ #leftSidebar {
+                order: 1;
+            }
+
+            #rightSidebar {
+                order: 3;
+            }
+
+            footer {
+                background-color: #12092d;
+                /* background color for footer */
+                width: 100%;
+                height: 40px;
+                padding: 10px;
+                text-align: center;
+                /* this centers the footer text */
+            }
+
+            h1,
+            h2,
+            h3 {
+                color: #6480f5;
+            }
+
+            h1 {
+                font-size: 25px;
+            }
+
+            strong {
+                /* this styles bold text */
+                color: #6480f5;
+            }
+
+            /* this is just a cool box, it's the darker colored one */
+            .box {
+                background-color: #12092d;
+                border: 1px solid #6480f5;
+                padding: 10px;
+            }
+
+            /* CSS for extras */
+
+            #topBar {
+                width: 100%;
+                height: 30px;
+                padding: 10px;
+                font-size: smaller;
+                background-color: #12092d;
+            }
+
+
+            /* BELOW THIS POINT IS MEDIA QUERY */
+
+            /* so you wanna change the width of your page? 
+    by default, the container width is 900px.
+    in order to keep things responsive, take your new height,
+    and then subtrack it by 100. use this new number as the 
+    "max-width" value below
+    */
+
+            @media only screen and (max-width: 800px) {
+                #flex {
+                    flex-wrap: wrap;
+                }
+
+                aside {
+                    width: 100%;
+                }
+
+                /* the order of the items is adjusted here for responsiveness!
+      since the sidebars would be too small on a mobile device.
+      feel free to play around with the order!
+      */
+                main {
+                    order: 1;
+                }
+
+                #leftSidebar {
+                    order: 2;
+                }
+
+                #rightSidebar {
+                    order: 3;
+                }
+
+                #navbar ul {
+                    flex-wrap: wrap;
+                }
+            }
+        </style>
+    </body>
+</html>
+    
